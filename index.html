@@ -55,6 +55,26 @@
 						</div>
 						 <div class="icon-container">
 						        <img src="./data.png" alt="Data Science Icon" id="rotating-icon" data-position="Rigth" />
+							 .icon-container {
+							    display: flex;
+							    justify-content: flex-end; /* Aligns content to the right */
+							    margin-right: 20px; /* Optional: Add margin if needed */
+							}
+							
+							#rotating-icon {
+							    width: 100px; /* Set desired width */
+							    animation: rotateIcon 4s linear infinite; /* Animation for rotating the icon */
+							}
+							
+							@keyframes rotateIcon {
+							    from {
+							        transform: rotate(0deg);
+							    }
+							    to {
+							        transform: rotate(360deg);
+							    }
+							}
+
 						</div>
 					</section>
 

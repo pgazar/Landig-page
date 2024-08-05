@@ -3920,7 +3920,7 @@ input, select, textarea {
 		}
 		.icon-container {
 		    display: flex;
-		    justify-content: center; /* Aligns the image to the right */
+		    justify-content: top center; /* Aligns the image to the right */
 		    margin-right: center; /* Optional: Adjust margin as needed */
 		    width: 100%; /* Ensure the container spans the full width */
 		}

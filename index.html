@@ -12,6 +12,38 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    		<style>
+		body {
+		    margin: 0;
+		    height: 100vh;
+		    display: flex;
+		    align-items: center;
+		    justify-content: flex-end; /* Align to the right side */
+		}
+		
+		.icon-container {
+		    margin-right: 20px; /* Adjust margin as needed */
+		}
+		
+		#rotating-icon {
+		    width: 100px; /* Adjust size as needed */
+		    animation: rotateIcon 4s linear infinite; /* Infinite rotation */
+		}
+		
+		@keyframes rotateIcon {
+		    from {
+		        transform: rotate(0deg);
+		    }
+		    to {
+		        transform: rotate(360deg);
+		    }
+			}
+	
+        
+  		</style>
 
 	</head>
 	<!-- Google tag (gtag.js) -->
@@ -51,10 +83,11 @@
 							<p>Innovation Begins with a Single Line of Code ...</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
-								
-
 							</ul>
 						
+						</div>
+						 <div class="icon-container">
+						        <img src="./data.png" alt="Data Science Icon" id="rotating-icon">
 						</div>
 					</section>
 

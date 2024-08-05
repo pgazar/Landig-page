@@ -3881,9 +3881,9 @@ input, select, textarea {
 		
 		.icon-container {
 		    display: flex;
-		    justify-content: flex-end; /* Aligns the image to the right */
-		    margin-right: 20px; /* Optional: Adjust margin as needed */
-		    width: 100%; /* Ensure the container spans the full width */
+		    justify-content: flex; /* Aligns the image to the right */
+		    margin-right: 100px; /* Optional: Adjust margin as needed */
+		    width: 200%; /* Ensure the container spans the full width */
 		}
 		
 		#rotating-icon {

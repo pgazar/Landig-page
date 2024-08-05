@@ -3908,15 +3908,24 @@ input, select, textarea {
 	
 
 		}
-	#data-icon {
-	    font-size: 48px; /* Size of the icon */
-	    color: #007bff; /* Icon color */
-	    position: relative; /* Position for animation */
-	    animation: moveIcon 3s infinite alternate; /* Apply animation */
-	}
-	
-	@keyframes moveIcon {
-	    0% { transform: translateX(0); }
-	    100% { transform: translateX(20px); } /* Move icon horizontally */
-	}
-	
+		.icon-container {
+		    display: flex;
+		    justify-content: flex-end; /* Aligns the image to the right */
+		    margin-right: 20px; /* Optional: Adjust margin as needed */
+		    width: 100%; /* Ensure the container spans the full width */
+		}
+		
+		#rotating-icon {
+		    width: 100px; /* Set desired width for the icon */
+		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
+		}
+		
+		@keyframes rotateIcon {
+		    from {
+		        transform: rotate(0deg);
+		    }
+		    to {
+		        transform: rotate(360deg);
+		    }
+		}
+			

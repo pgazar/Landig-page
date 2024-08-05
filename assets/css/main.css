@@ -3881,13 +3881,13 @@ input, select, textarea {
 		
 		.icon-container {
 		    display: flex;
-		    justify-content: flex-center; /* Aligns the image to the right */
-		    margin-right: 20px; /* Optional: Adjust margin as needed */
+		    justify-content: center; /* Aligns the image to the right */
+		    margin-right: center; /* Optional: Adjust margin as needed */
 		    width: 100%; /* Ensure the container spans the full width */
 		}
 		
 		#rotating-icon {
-		    width: 100px; /* Set desired width for the icon */
+		    width: 200px; /* Set desired width for the icon */
 		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
 		}
 		

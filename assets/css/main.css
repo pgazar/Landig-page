@@ -3878,6 +3878,27 @@ input, select, textarea {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+		
+		.icon-container {
+		    display: flex;
+		    justify-content: flex-end; /* Aligns the image to the right */
+		    margin-right: 20px; /* Optional: Adjust margin as needed */
+		    width: 100%; /* Ensure the container spans the full width */
+		}
+		
+		#rotating-icon {
+		    width: 100px; /* Set desired width for the icon */
+		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
+		}
+		
+		@keyframes rotateIcon {
+		    from {
+		        transform: rotate(0deg);
+		    }
+		    to {
+		        transform: rotate(360deg);
+		    }
+		}
 	}
 
 		#intro p {
@@ -3905,27 +3926,11 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+		}
 	
+	
+		
 
-		}
-		.icon-container {
-		    display: flex;
-		    justify-content: flex-end; /* Aligns the image to the right */
-		    margin-right: 20px; /* Optional: Adjust margin as needed */
-		    width: 100%; /* Ensure the container spans the full width */
-		}
 		
-		#rotating-icon {
-		    width: 100px; /* Set desired width for the icon */
-		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
-		}
 		
-		@keyframes rotateIcon {
-		    from {
-		        transform: rotate(0deg);
-		    }
-		    to {
-		        transform: rotate(360deg);
-		    }
-		}
 			

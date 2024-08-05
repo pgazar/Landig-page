@@ -3879,16 +3879,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		
-		.icon-container {
-		    display: flex;
-		    justify-content: center; /* Aligns the image to the right */
-		    margin-right: center; /* Optional: Adjust margin as needed */
-		    width: 100%; /* Ensure the container spans the full width */
-		}
 		
-		#rotating-icon {
-		    width: 200px; /* Set desired width for the icon */
-		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
 		}
 		
 		@keyframes rotateIcon {
@@ -3927,6 +3918,16 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 		}
+		.icon-container {
+		    display: flex;
+		    justify-content: center; /* Aligns the image to the right */
+		    margin-right: center; /* Optional: Adjust margin as needed */
+		    width: 100%; /* Ensure the container spans the full width */
+		}
+		
+		#rotating-icon {
+		    width: 200px; /* Set desired width for the icon */
+		    animation: rotateIcon 4s linear infinite; /* Apply the rotation animation */
 	
 	
 		

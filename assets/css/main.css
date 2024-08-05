@@ -3905,5 +3905,18 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+	
 
 		}
+	#data-icon {
+	    font-size: 48px; /* Size of the icon */
+	    color: #007bff; /* Icon color */
+	    position: relative; /* Position for animation */
+	    animation: moveIcon 3s infinite alternate; /* Apply animation */
+	}
+	
+	@keyframes moveIcon {
+	    0% { transform: translateX(0); }
+	    100% { transform: translateX(20px); } /* Move icon horizontally */
+	}
+	

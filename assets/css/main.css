@@ -3883,7 +3883,7 @@ input, select, textarea {
 		    display: flex;
 		    justify-content: flex-center; /* Aligns the image to the right */
 		    margin-right: 20px; /* Optional: Adjust margin as needed */
-		    width: 300%; /* Ensure the container spans the full width */
+		    width: 100%; /* Ensure the container spans the full width */
 		}
 		
 		#rotating-icon {
